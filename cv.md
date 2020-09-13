@@ -32,10 +32,11 @@ I have one lasting project of building social network on react/redux from YouTub
  In addition the link to my [codewars profile](https://www.codewars.com/users/micolka)
 
 ### **Education** 
-1. learn.javascript.ru - that what from I stated...
-2. [The way of samurai](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8) - ...and continued then.
+1. learn.javascript.ru - this is from I stated...
+2. [The way of samurai](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8) - ...and continued
+3. RS School for now
 
 ### **Languages skills**
   * English - **B1** (At least with reading and writing. Some speaking practice is required)
-  * Spanish - **A1**
+  * Spanish - **A1** (Had to give up courses in MLSU due to COVID-19)
 
