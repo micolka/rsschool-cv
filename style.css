@@ -1,0 +1,15 @@
+.body {
+  background-color: gray;
+}
+
+.main {
+  background-color: lightblue;
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.body img {
+  display: flex;
+  margin-left: 60%;
+}
