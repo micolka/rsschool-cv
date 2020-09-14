@@ -1,0 +1,21 @@
+.body {
+  background-color: gray;
+}
+
+.main {
+  background-color: lightblue;
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: large;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10%;
+}
+
+.code {
+  background-color: royalblue;
+}
