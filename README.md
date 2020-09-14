@@ -1,2 +1,2 @@
-https://micolka.github.io/rsschool-cv/cv
-https://micolka.github.io/rsschool-cv/
+# [markdown CV](https://micolka.github.io/rsschool-cv/cv)
+# [html CV](https://micolka.github.io/rsschool-cv/)
