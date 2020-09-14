@@ -11,19 +11,22 @@
       <header>
        <h1>Junior Developer Resume</h1>
       </header>
-      <img src="./assets/images/282440.jpg" height="100" alt="ava">
-      <article>
-        <h2>Nikityk Nikolay</h2>
-        <section>
-          <h3>Contact Info</h3>
-          <ul>
-            <li>email: mic_la@tut.by</li>
-            <li>facebook: 
-              <a href="https://www.facebook.com/micolkaby">https://www.facebook.com/micolkaby</a>
-            </li>
-            <li>telegram: @micolka</li>
-          </ul>
-        </section>
+      
+      <article> 
+        <div class="container">         
+          <section>
+            <h2>Nikityk Nikolay</h2> 
+            <h3>Contact Info</h3>
+            <ul>
+              <li>email: <a href="mailto:mic_la@tut.by">mic_la@tut.by</a></li>
+              <li>facebook: 
+                <a href="https://www.facebook.com/micolkaby">https://www.facebook.com/micolkaby</a>
+              </li>
+              <li>telegram: @micolka</li>
+            </ul>
+          </section>
+          <img src="./assets/images/282440.jpg" height="150" alt="ava">
+        </div>      
         <section>
           <h3>Summary</h3>
           <p>Working in government structure and looking for an opportunity to change life and get into IT. Before these courses I was studying JS and React by myself. For now I see RS-school as great possibility to join to community of curious people and dive deep into JS.</p>
@@ -34,8 +37,7 @@
         </section>
         <section>
           <h3>Code examples</h3>
-          <Pre><code>
-            const Login: React.FC&lt;LoginPropsType&gt; = (props) =&gt; {
+          <Pre class="code"><code>          const Login: React.FC&lt;LoginPropsType&gt; = (props) =&gt; {
 
               const onSubmit = (formData: LoginFormValuesType) =&gt; {
                   let {login, password, rememberMe, captcha} = formData;

@@ -7,9 +7,15 @@
   width: 900px;
   margin: 0 auto;
   padding: 10px;
+  font-size: large;
 }
 
-.body img {
+.container {
   display: flex;
-  margin-left: 60%;
+  justify-content: space-between;
+  padding-right: 10%;
+}
+
+.code {
+  background-color: royalblue;
 }
