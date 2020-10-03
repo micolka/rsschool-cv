@@ -4,9 +4,9 @@
 }
 
 .main {
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
-  height: 1000px;
+  height: 100vh;
   display: flex;
 }
 
@@ -17,11 +17,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .header {
   display: flex;
   flex-direction: column;
+  row-gap: 10px;
   align-items: center;
   justify-content: center;
 }
@@ -36,8 +38,30 @@
 .header h2 {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   color: #ffffff;
+}
+
+.execsumm {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li,
+ul li a {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .summary-font {
@@ -47,20 +71,50 @@
 }
 
 .summary-title {
-  font-size: 25px;
+  font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }
 
 .summary-text {
-  font-size: 15px;
+  font-size: 18px;
+  text-align: justify;
+  font-weight: 400;
 }
-
 
 .experience {
   background: #ffffff;
   width: 60%;
   height: 100%;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
+.exp-title {
+  background: #b11300;
+  padding: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin: 0 0 10px 0;
+}
 
+.exp-text {
+  margin: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.exp-text a {
+  text-decoration: none;
+  color: #b11300;
+}
+
+.exp-text a:hover {
+  background: #2d2d2b;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>HTML, CSS & Git Basics</title>
@@ -19,15 +19,16 @@
         <p class="summary-title summary-font">Executive Summary</p>
         <p class="summary-text summary-font">Working in government structure and looking for an opportunity to change life and get into IT. Before these courses I was studying JS and React by myself. For now I see RS-school as great possibility to join to community of curious people and dive deep into JS.</p>
       </div>
-      <div class="career">
-        <p class="summary-title summary-font">Contact Info</p>
+      <div class="execsumm">
+        <p class="summary-title summary-font">Skills</p>
+        <p class="summary-text summary-font">JS, TS, react/redux, git, html, css</p>
       </div>
-      <div class="contacts">
+      <div class="execsumm">
         <p class="summary-title summary-font">Contact details</p>
         <ul>
           <li>email: <a href="mailto:mic_la@tut.by">mic_la@tut.by</a></li>
           <li>facebook: 
-            <a href="https://www.facebook.com/micolkaby">https://www.facebook.com/micolkaby</a>
+            <a href="https://www.facebook.com/micolkaby">facebook.com/micolkaby</a>
           </li>
           <li>telegram: @micolka</li>
         </ul>
@@ -35,6 +36,37 @@
      </section>
      <section class="experience">
 
+      <section>
+        <p class="exp-title">Experience</p>
+        <p class="exp-text">I have one lasting project of building social network on react/redux from YouTube-channel <a href="https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g">IT-KAMASUTRA</a> course <a href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8">The way of samurai</a>. The project is really worth of seeing and doing. And it still in the progress. Here is link to <a href="https://github.com/micolka/Social-network">repository</a> and to <a href="https://micolka.github.io/Social-network/#/users">deployed result</a>.</p>
+        <p class="exp-text">In addition the link to my <a href="https://www.codewars.com/users/micolka">codewars profile</a></p>
+      </section>
+      <section>
+        <p class="exp-title">Education</p>
+        <p class="exp-text">1. <a href="http://learn.javascript.ru">learn.javascript.ru</a>  - this is from I stated...</p>
+        <p class="exp-text">2. <a href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8">The way of samurai</a> - ...and continued</p>
+        <p class="exp-text">3. RS School for now</p>
+      </section>
+      <section>
+        <p class="exp-title">Languages skills</p>
+        <p class="exp-text">* <b>English</b> - B1 (At least with reading and writing. Some speaking practice is required)</p>
+        <p class="exp-text">* <b>Spanish</b> - A1 (Had to give up courses in MLSU due to COVID-19)</p>
+      </section>
+      <section>
+        <p class="exp-title">Code example</h3>
+        <Pre class="exp-text"><code>const Login: React.FC&lt;LoginPropsType&gt; = (props) =&gt; {
+  const onSubmit = (formData: LoginFormValuesType) =&gt; {
+    let {login, password, rememberMe, captcha} = formData;
+    props.loginMe(login, password, rememberMe, captcha);
+  };            
+  return &lt;div className={s.loginCommon}&gt;
+      &lt;h1&gt;LOGIN&lt;/h1&gt;
+      &lt;LoginReduxForm onSubmit={onSubmit} 
+                  captchaURL={props.captchaURL}/&gt;
+    &lt;/div&gt;;
+  };
+    </code></Pre>
+      </section>
      </section>
    </main>
 </body>
