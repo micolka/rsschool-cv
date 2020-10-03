@@ -2,72 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>HTML, CSS & Git Basics</title>
 </head>
 <body class="body">
-    <main class="main">
-      <header>
-       <h1>Junior Developer Resume</h1>
+   <main class="main">
+     <section class="summary">
+      <header class="header"> 
+        <img src="./assets/images/quake-3.png" height="150" alt="ava">
+        <h1>Nikolay Nikityk</h1>
+        <h2>Frontend Developer</h2>
       </header>
-      
-      <article> 
-        <div class="container">         
-          <section>
-            <h2>Nikityk Nikolay</h2> 
-            <h3>Contact Info</h3>
-            <ul>
-              <li>email: <a href="mailto:mic_la@tut.by">mic_la@tut.by</a></li>
-              <li>facebook: 
-                <a href="https://www.facebook.com/micolkaby">https://www.facebook.com/micolkaby</a>
-              </li>
-              <li>telegram: @micolka</li>
-            </ul>
-          </section>
-          <img src="./assets/images/282440.jpg" height="150" alt="ava">
-        </div>      
-        <section>
-          <h3>Summary</h3>
-          <p>Working in government structure and looking for an opportunity to change life and get into IT. Before these courses I was studying JS and React by myself. For now I see RS-school as great possibility to join to community of curious people and dive deep into JS.</p>
-        </section>
-        <section>
-          <h3>Skills</h3>
-          <p>JS, TS, react/redux, git, html, css</p>
-        </section>
-        <section>
-          <h3>Code examples</h3>
-          <Pre class="code"><code>          const Login: React.FC&lt;LoginPropsType&gt; = (props) =&gt; {
+      <div class="execsumm">
+        <p class="summary-title summary-font">Executive Summary</p>
+        <p class="summary-text summary-font">Working in government structure and looking for an opportunity to change life and get into IT. Before these courses I was studying JS and React by myself. For now I see RS-school as great possibility to join to community of curious people and dive deep into JS.</p>
+      </div>
+      <div class="career">
+        <p class="summary-title summary-font">Contact Info</p>
+      </div>
+      <div class="contacts">
+        <p class="summary-title summary-font">Contact details</p>
+        <ul>
+          <li>email: <a href="mailto:mic_la@tut.by">mic_la@tut.by</a></li>
+          <li>facebook: 
+            <a href="https://www.facebook.com/micolkaby">https://www.facebook.com/micolkaby</a>
+          </li>
+          <li>telegram: @micolka</li>
+        </ul>
+      </div>
+     </section>
+     <section class="experience">
 
-              const onSubmit = (formData: LoginFormValuesType) =&gt; {
-                  let {login, password, rememberMe, captcha} = formData;
-                  props.loginMe(login, password, rememberMe, captcha);
-              };
-              
-              return &lt;div className={s.loginCommon}&gt;
-                  &lt;h1&gt;LOGIN&lt;/h1&gt;
-                  &lt;LoginReduxForm onSubmit={onSubmit} captchaURL={props.captchaURL}/&gt;
-              &lt;/div&gt;;
-          };
-      </code></Pre>
-        </section>
-        <section>
-          <h3>Experience</h3>
-          <p>I have one lasting project of building social network on react/redux from YouTube-channel <a href="https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g">IT-KAMASUTRA</a> course <a href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8">The way of samurai</a>. The project is really worth of seeing and doing. And it still in the progress. Here is link to <a href="https://github.com/micolka/Social-network">repository</a> and to <a href="https://micolka.github.io/Social-network/#/users">deployed result</a>.</p>
-          <p>In addition the link to my <a href="https://www.codewars.com/users/micolka">codewars profile</a></p>
-        </section>
-        <section>
-          <h3>Education</h3>
-          <p>1. <a href="http://learn.javascript.ru">learn.javascript.ru</a>  - this is from I stated...</p>
-          <p>2. <a href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8">The way of samurai</a> - ...and continued</p>
-          <p>3. RS School for now</p>
-        </section>
-        <section>
-          <h3>Languages skills</h3>
-          <p>  * English - B1 (At least with reading and writing. Some speaking practice is required)</p>
-          <p>  * Spanish - A1 (Had to give up courses in MLSU due to COVID-19)</p>
-        </section>
-      </article>
-    </main>
+     </section>
+   </main>
 </body>
 </html>

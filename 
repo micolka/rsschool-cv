@@ -1,0 +1,43 @@
+[33mcommit 843013b122dceed73391ce51ee8db8d2461539b3[m[33m ([m[1;36mHEAD -> [m[1;32mrsschool-cv-html[m[33m, [m[1;31morigin/rsschool-cv-html[m[33m)[m
+Author: micolka <mic_la@tut.by>
+Date:   Mon Sep 14 23:43:52 2020 +0300
+
+    fix: change ava position and font
+
+[33mcommit 7919a797954a2de2919102e3b9bad71379d6c57b[m
+Author: micolka <mic_la@tut.by>
+Date:   Mon Sep 14 23:17:24 2020 +0300
+
+    feat: add cv data plus ava
+
+[33mcommit e611c0d6d892208c8faab59f4c64ef49861fddd1[m
+Author: micolka <mic_la@tut.by>
+Date:   Mon Sep 14 00:29:36 2020 +0300
+
+    init: start html-css-git project
+
+[33mcommit 342d1be12072061c01d185bb44e34c4e60cd18ac[m[33m ([m[1;31morigin/gh-pages[m[33m, [m[1;32mgh-pages[m[33m)[m
+Author: micolka <mic_la@tut.by>
+Date:   Sun Sep 13 23:04:27 2020 +0300
+
+    docs: fix mistakes and add some info
+
+[33mcommit c38c5c03a0c676a64f698e9148ec82cee1ebd7a7[m
+Author: micolka <mic_la@tut.by>
+Date:   Sun Sep 13 22:54:48 2020 +0300
+
+    docs: update CV with required info
+
+[33mcommit ae7f8b9d68bcaee9503019d08b847281776bdc70[m
+Author: Nikolay <55094494+micolka@users.noreply.github.com>
+Date:   Sun Sep 13 11:14:04 2020 +0300
+
+    Create cv.md
+    
+    init: start Git & Markdown project
+
+[33mcommit 0e84bd8a2e618b7fd2657dedd58148d3d703e7ad[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Nikolay <55094494+micolka@users.noreply.github.com>
+Date:   Sun Sep 13 11:05:57 2020 +0300
+
+    Initial commit
